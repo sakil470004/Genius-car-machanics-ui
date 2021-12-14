@@ -1,0 +1,192 @@
+[debug] [2021-12-14T17:22:34.259Z] ----------------------------------------------------------------------
+[debug] [2021-12-14T17:22:34.265Z] Command:       /home/sakil/.nvm/versions/node/v14.18.0/bin/node /home/sakil/.nvm/versions/node/v14.18.0/bin/firebase init
+[debug] [2021-12-14T17:22:34.265Z] CLI Version:   9.23.1
+[debug] [2021-12-14T17:22:34.265Z] Platform:      linux
+[debug] [2021-12-14T17:22:34.265Z] Node Version:  v14.18.0
+[debug] [2021-12-14T17:22:34.265Z] Time:          Tue Dec 14 2021 23:22:34 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-12-14T17:22:34.266Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-14T17:22:34.321Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-14T17:22:34.321Z] > authorizing via signed-in user (sk470004@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /mnt/04D7170C2EC1C67B/node and express mongodb/Genius-Car-Mechanics-module-61
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-12-14T17:22:40.951Z] Using project from CLI flag: genius-car-mechanics
+[debug] [2021-12-14T17:22:40.963Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics [none]
+[debug] [2021-12-14T17:22:41.662Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics 403
+[debug] [2021-12-14T17:22:41.663Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-12-14T17:22:41.665Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-12-14T17:22:42.051Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Client.doRequest (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/apiv2.js:241:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Client.request (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/apiv2.js:96:20)
+    at async Object.getFirebaseProject (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/management/projects.js:290:21)
+    at async Object.doSetup [as project] (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/init/features/project.js:85:27)
+    at async init (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/init/index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project genius-car-mechanics. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-12-14T17:22:45.144Z] ----------------------------------------------------------------------
+[debug] [2021-12-14T17:22:45.149Z] Command:       /home/sakil/.nvm/versions/node/v14.18.0/bin/node /home/sakil/.nvm/versions/node/v14.18.0/bin/firebase init
+[debug] [2021-12-14T17:22:45.149Z] CLI Version:   9.23.1
+[debug] [2021-12-14T17:22:45.150Z] Platform:      linux
+[debug] [2021-12-14T17:22:45.150Z] Node Version:  v14.18.0
+[debug] [2021-12-14T17:22:45.150Z] Time:          Tue Dec 14 2021 23:22:45 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-12-14T17:22:45.150Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-14T17:22:45.209Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-14T17:22:45.209Z] > authorizing via signed-in user (sk470004@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /mnt/04D7170C2EC1C67B/node and express mongodb/Genius-Car-Mechanics-module-61
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-12-14T17:22:51.810Z] Using project from CLI flag: genius-car-mechanics
+[debug] [2021-12-14T17:22:51.821Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics [none]
+[debug] [2021-12-14T17:22:52.570Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics 403
+[debug] [2021-12-14T17:22:52.571Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-12-14T17:22:52.572Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-12-14T17:22:52.953Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Client.doRequest (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/apiv2.js:241:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Client.request (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/apiv2.js:96:20)
+    at async Object.getFirebaseProject (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/management/projects.js:290:21)
+    at async Object.doSetup [as project] (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/init/features/project.js:85:27)
+    at async init (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/init/index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project genius-car-mechanics. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-12-14T17:23:27.992Z] ----------------------------------------------------------------------
+[debug] [2021-12-14T17:23:27.997Z] Command:       /home/sakil/.nvm/versions/node/v14.18.0/bin/node /home/sakil/.nvm/versions/node/v14.18.0/bin/firebase init
+[debug] [2021-12-14T17:23:27.997Z] CLI Version:   9.23.1
+[debug] [2021-12-14T17:23:27.998Z] Platform:      linux
+[debug] [2021-12-14T17:23:27.998Z] Node Version:  v14.18.0
+[debug] [2021-12-14T17:23:27.998Z] Time:          Tue Dec 14 2021 23:23:27 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-12-14T17:23:27.998Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-14T17:23:28.053Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-14T17:23:28.053Z] > authorizing via signed-in user (sk470004@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /mnt/04D7170C2EC1C67B/node and express mongodb/Genius-Car-Mechanics-module-61
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-12-14T17:23:36.679Z] Using project from CLI flag: genius-car-mechanics
+[debug] [2021-12-14T17:23:36.685Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics [none]
+[debug] [2021-12-14T17:23:37.347Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics 403
+[debug] [2021-12-14T17:23:37.348Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-12-14T17:23:37.349Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-12-14T17:23:37.725Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Client.doRequest (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/apiv2.js:241:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Client.request (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/apiv2.js:96:20)
+    at async Object.getFirebaseProject (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/management/projects.js:290:21)
+    at async Object.doSetup [as project] (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/init/features/project.js:85:27)
+    at async init (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/init/index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project genius-car-mechanics. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-12-14T17:23:42.525Z] ----------------------------------------------------------------------
+[debug] [2021-12-14T17:23:42.531Z] Command:       /home/sakil/.nvm/versions/node/v14.18.0/bin/node /home/sakil/.nvm/versions/node/v14.18.0/bin/firebase init
+[debug] [2021-12-14T17:23:42.532Z] CLI Version:   9.23.1
+[debug] [2021-12-14T17:23:42.532Z] Platform:      linux
+[debug] [2021-12-14T17:23:42.532Z] Node Version:  v14.18.0
+[debug] [2021-12-14T17:23:42.532Z] Time:          Tue Dec 14 2021 23:23:42 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-12-14T17:23:42.532Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-14T17:23:42.589Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-14T17:23:42.589Z] > authorizing via signed-in user (sk470004@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /mnt/04D7170C2EC1C67B/node and express mongodb/Genius-Car-Mechanics-module-61
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-12-14T17:23:57.863Z] Using project from CLI flag: genius-car-mechanics
+[debug] [2021-12-14T17:23:57.873Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics [none]
+[debug] [2021-12-14T17:23:58.566Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics 403
+[debug] [2021-12-14T17:23:58.566Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/genius-car-mechanics {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-12-14T17:23:58.567Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-12-14T17:23:59.960Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Client.doRequest (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/apiv2.js:241:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Client.request (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/apiv2.js:96:20)
+    at async Object.getFirebaseProject (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/management/projects.js:290:21)
+    at async Object.doSetup [as project] (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/init/features/project.js:85:27)
+    at async init (/home/sakil/.nvm/versions/node/v14.18.0/lib/node_modules/firebase-tools/lib/init/index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project genius-car-mechanics. Please make sure the project exists and your account has permission to access it.
